@@ -9,18 +9,23 @@ header {
   font-size: 14px;
   font-weight: bold;
   height: 80px;
+  background-color: white;
+  z-index: 5;
+  left: 0;
+
 }
 .logo{
 color: mediumaquamarine;
 display: flex;
 align-items: center;
 flex-grow: 1;
+margin-left: 25px;
 }
 .logo span {
   padding-left: 12px;
 }
 .headnav{
-  display: flex;
+    display: flex;
 }
 .headnav span {
   display: inline-block;
@@ -30,28 +35,113 @@ a{
   color: black;
 }
 /*                      Below Header                      */
+.main{
+  display: flex;
+  margin-top: 120px;
+  justify-content: center;
+}
+
 .large{
   width: 630px;
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
+
 }
 
 .medium {
   width: 300px;
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
+
 }
 
 .small {
   width: 240px;
   display: flex;
-  flex-direction: column;
-}
-div{
+  flex-flow: column;
 
 }
-.main{
+.teximg{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
   display: flex;
-  position: relative;
-  top: 60px;
+  justify-content: center;
+  height: 300px;
+  text-align: center;
+}
+.cato{
+  background-image: url('../image/img-story-1.png');
+}
+.cameraman{
+  background-image: url('../image/img-story-3.png');
+}
+.earth{
+  background-image: url('../image/img-story-2.png');
+}
+.maine{
+  background-image: url('../image/img-story-main.png');
+  font-size: 40px;
+  text-align: left !Important;
+}
+.large, .medium, .small{
+  margin-right: 30px;
+}
+.littlestories{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  margin: 20px 0;
+  width: 100%;
+}
+.noimg p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.chiquita{
+  width: 48%;
+}
+.small h2{
+  font-size: 16px;
+ font-weight: bold;
+}
+.bites{
+  display: flex;
+  flex-flow: column;
+}
+.bites span{
+  background-color: WhiteSmoke;
+font-family: Verdana;
+font-size: 12px;
+color: DimGray;
+margin: 0 0;
+border-bottom: 1px solid gray;
+padding: 5px 0;
+}
+.footah{
+  background-color: MediumAquamarine;
+margin: auto;
+flex-flow: column;
+font-family: Verdana;
+font-size: 12px;
+display: flex;
+height: 300px;
+justify-content: center;
+align-items: center;
+}
+
+.logod span{
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 0 10px;
+}
+#wb{
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 0 10px;
 }
